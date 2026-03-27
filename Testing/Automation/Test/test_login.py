@@ -1,6 +1,5 @@
 from Testing.Automation.Home_page.login_feature import LoginPage
 
-
 def test_login_flow(driver):
     login = LoginPage(driver)
 
@@ -8,5 +7,3 @@ def test_login_flow(driver):
     login.select_customer()
     login.enter_mobile_number("88403251")
     login.click_send_otp()
-
-
