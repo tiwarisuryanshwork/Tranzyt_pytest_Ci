@@ -1,4 +1,4 @@
-from Testing.Automation.Pages.login_page import LoginPage
+from Testing.Automation.Home_page.login_feature import LoginPage
 
 
 def test_login_flow(driver):

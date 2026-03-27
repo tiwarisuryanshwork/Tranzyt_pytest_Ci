@@ -1,4 +1,4 @@
-from Testing.Automation.Pages.search_page import SearchPage
+from Testing.Automation.Home_page.search_feature import SearchPage
 
 
 def test_check_search_filters(driver):
