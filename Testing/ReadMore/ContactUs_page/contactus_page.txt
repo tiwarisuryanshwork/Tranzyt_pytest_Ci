@@ -1,0 +1,40 @@
+ Contact Us Form Automation
+
+This module automates the Contact Us form functionality using Selenium WebDriver with Python and integrates Pytest for test execution, validation, and reporting. It follows the Page Object Model (POM) design pattern to ensure clean, maintainable, and scalable test code.
+
+Features Covered
+Enter Full Name
+Enter Email Address
+Enter Phone Number
+Enter Message
+Click on Submit button
+Execute test cases using Pytest framework
+
+
+Implementation Details
+Uses Explicit Waits (WebDriverWait) for stable element interaction
+Implements Expected Conditions (EC) for synchronization
+Follows Page Object Model (POM) for separation of concerns
+Uses Pytest for:
+Test execution
+Fixture management (e.g., WebDriver setup)
+Assertions and validation
+Easy test scalability
+
+
+
+Class & Test Overview
+--Page Class (ContactUs)
+enter_name(name) → Inputs full name
+enter_email(email) → Inputs email
+enter_phone(phone) → Inputs phone number
+enter_message(message) → Inputs message
+click_submit() → Clicks submit button
+fill_contact_form(...) → Performs complete form submission
+
+Purpose
+This feature ensures that:
+The Contact Us form works correctly end-to-end
+Input fields accept valid data
+Form submission flow is validated using automated tests
+Tests can be executed efficiently using Pytest

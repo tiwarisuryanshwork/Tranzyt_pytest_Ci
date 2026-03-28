@@ -1,0 +1,39 @@
+ COUNTRY TO PACKAGE DETAILS FLOW Automation
+
+1. INTRODUCTION
+    This project automates the end-to-end user journey from the home page to the package details page using Selenium with Python and pytest framework.
+
+2. OBJECTIVE
+   To validate that a user can successfully:
+
+* Select a country
+* Explore available packages
+* View package details
+
+3. TECHNOLOGIES USED
+
+* Python
+* Selenium WebDriver
+* Pytest
+* Page Object Model (POM)
+
+4. FRAMEWORK DESIGN
+   The framework is designed using the Page Object Model, where each page contains its locators and reusable action methods. Test cases are separated for better readability and maintainability.
+
+5. TEST FLOW
+
+* Launch application
+* Select country (Vietnam)
+* Click on "Explore Packages"
+* Click on "View Details"
+* Verify successful navigation
+
+6. KEY IMPLEMENTATIONS
+
+* Explicit waits (WebDriverWait) for stability
+* Scroll handling using JavaScript
+* Reusable click method for all elements
+* Screenshot capture for success and failure
+
+7. CONCLUSION
+   This automation ensures a reliable and maintainable testing approach for validating the main user flow. The use of pytest and POM improves scalability and code organization.

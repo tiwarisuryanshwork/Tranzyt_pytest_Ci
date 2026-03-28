@@ -1,0 +1,15 @@
+SEARCH FEATURE AUTOMATION REPORT
+
+This module automates the search functionality of the application using Selenium and pytest framework.
+
+The SearchPage class is designed using the Page Object Model (POM), where locators and actions are separated for better maintainability.
+
+Key functionalities include:
+
+* Clicking on the search input field
+* Entering search values dynamically
+* Selecting a country from search results
+
+The implementation uses explicit waits to ensure elements are interactable before performing actions. Scroll handling is added using JavaScript to make elements visible before clicking. A fallback JavaScript click is also used to handle element interception issues.
+
+This approach improves test reliability and ensures smooth interaction with dynamic UI elements.

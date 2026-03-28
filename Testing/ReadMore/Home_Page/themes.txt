@@ -1,0 +1,13 @@
+THEME FEATURE AUTOMATION REPORT
+
+This module automates theme selection functionality using Selenium with pytest framework.
+
+The ThemeFeature class follows the Page Object Model (POM) design pattern, ensuring separation of locators and actions.
+
+Key functionality:
+
+* Selecting themes such as Adventure from the UI
+
+The implementation includes explicit waits for element stability, scroll handling using JavaScript to bring elements into view, and a fallback JavaScript click to handle interception issues.
+
+This improves reliability and ensures smooth interaction with dynamic UI components.

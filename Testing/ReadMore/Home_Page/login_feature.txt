@@ -1,0 +1,38 @@
+ LOGIN AUTOMATION (SELENIUM + PYTEST)
+
+1. INTRODUCTION
+   This module automates the login functionality of a web application using Selenium with Python and pytest.
+
+
+2. TECHNOLOGIES USED
+
+* Python
+* Selenium WebDriver
+* Pytest
+* Page Object Model (POM)
+
+3. FRAMEWORK DESIGN
+   The project follows the Page Object Model, where locators and actions are separated for better readability and reusability.
+
+4. LOGIN PAGE IMPLEMENTATION
+   The LoginPage class includes:
+
+* WebDriver and wait initialization
+* Locators for login elements
+* Methods for user actions like click, input, and submit
+
+5. KEY METHODS
+
+* click_login() → Scrolls and clicks login button
+* select_customer() → Selects customer option
+* enter_mobile_number() → Inputs mobile number
+* click_send_otp() → Clicks Send OTP button
+
+6. FEATURES
+
+* Scroll handling using JavaScript
+* JavaScript click to avoid interception issues
+* Explicit waits for stability
+
+7. CONCLUSION
+   This module demonstrates a reliable and maintainable automation framework using Selenium and pytest, handling real-world UI challenges effectively.

@@ -1,0 +1,26 @@
+Explore Navbar Automation
+
+This module automates the Explore section of the application using Selenium with Python and follows the Page Object Model (POM) design pattern.
+
+The ExploreNavbar class contains locators and methods to interact with the Explore navigation menu and validate user navigation through different sections.
+
+Features Covered
+Click on the Explore menu from the navigation bar
+Select a specific country (Vietnam) from the dropdown
+Navigate to a travel package (Escape to Vietnam)
+
+Implementation Details
+Uses Explicit Waits (WebDriverWait) for reliable interaction
+Implements Selenium Expected Conditions for element visibility and clickability
+Follows Page Object Model (POM) for better code structure and reusability
+
+Class Overview
+click_explore() → Opens the Explore menu
+click_countrys() → Selects the country (Vietnam)
+click_packages() → Opens the selected package
+
+
+This feature ensures that:
+
+Navigation through the Explore section works correctly
+Users can select destinations and view related packages without issues

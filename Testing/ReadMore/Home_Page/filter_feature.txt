@@ -1,0 +1,13 @@
+FILTER FEATURE AUTOMATION REPORT
+
+This module automates the filter functionality in the application using Selenium with pytest framework.
+
+The FilterExplore class follows the Page Object Model (POM), where locators and actions are structured separately for better maintainability.
+
+Key functionality:
+
+* Selecting filters such as "Friends" from the explore section
+
+The implementation uses explicit waits to ensure elements are clickable before interaction. Scroll handling is implemented using JavaScript to bring elements into view, and a fallback JavaScript click is used to handle interception issues.
+
+This approach ensures reliable interaction with dynamic UI elements and improves overall test stability.
