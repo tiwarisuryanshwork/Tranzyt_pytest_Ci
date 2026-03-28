@@ -1,5 +1,5 @@
-from Testing.Contactus_page.contactus_page import CountactUs
-from Testing.Contactus_page.home_page import Home_page
+from Testing.Automation.Contactus_page.contactus_page import CountactUs
+from Testing.Automation.Contactus_page.home_page import Home_page
 
 
 def test_contactus(driver):
